@@ -2,12 +2,131 @@
 <html>
  <head>
     <meta charset="utf-8">
- 	<title>AI技術について1</title>
+ 	<title>AI技術について</title>
+ 	<link rel="stylesheet" href="stylesheet.css">
+ 	.header{
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top:0;
+	left: 0;
+}
+
+.headertitle{
+	margin-left: 5%;
+	margin-top:27px;
+	font-size: 43px;
+	float:left;
+	color: #fff;
+
+}
+
+.right{
+	position: absolute;
+	right: 10px;
+	top: 43px;
+	font-size:22px;
+
+}
+
+.history{
+	float: left;
+	padding: 10px;
+
+}
+
+.future{
+	float: left;
+	padding: 10px;
+}
+
+.summary{
+	float: left;
+	padding: 10px;
+}
+.main{
+	margin-top: 110px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 36px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #aaa;
+	margin-bottom: 5px;
+
+}
+.abaut{
+
+}
+#history-text{
+	padding-top: 100px;
+	display: block;
+}
+#future-text{
+    margin-top: 100px;
+    padding-top: 100px;
+	display: block;
+}
+#summary-text{
+	margin-top: 100px;
+	padding-top: 100px;
+	display: block;			
+}
+.reference{
+	margin-top: 100px;
+}
  </head>
  <body>
- 	<h1>AI技術について</h1>
-    <h3>目次</h3>
+ 	<div class="header">
+ 		<div class="headertitle">AI技術について</div>
+ 		<div class="right">
+ 			<div class="history"><a href="#history-text">AI技術の歴史</a></div>
+ 			<div class="future"><a href="#future-text">AI技術とその未来</a></div>
+ 			<div class="summary"><a href="#summary-text">まとめ</a></div>
+ 			
+ 		</div>
+ 	</div>
+    <div class="main">
+       <div class="abaut" >
+       		　近い将来AI（人工知能）によって多くの人の仕事が無くなると言われており、これは今や無視できない問題となっている。AIとは「Artificial intelligence」の略で、人工知能のことである。しかし、現在AIと言われているのは、ビックデータを利用したディープラーニングや機械学習のことである。つまり、現在AIは存在しておらず、正しくはAI技術である。[1]人類の進歩にはAI技術の発展が必須である。したがってAIと人間の共存する方法を考える必要がある。
+       </div>
+       <div id="history-text" >
+       		<h2>AI技術の歴史</h2>
+       		<P>　AIの研究には3回のブームがある。</P>
+       		<p>　第１次AIブームは1950年代～１９６０年代にコンピュータに「推論と探索」などの問題を解かせる研究が進んだ。しかしコンピュータの性能が低く、現実世界で約に立たないとわかり、この時のAIはトイプロブレムと呼ばれた。[2]</p>
+       		<p>　第２次AIブームは1980年代にコンピュータに知識を加えることで研究が進んだ。第1次AIブームに比べ、コンピュータの性能が高まっており、ある程度成功したが例外処理や矛盾したルールに柔軟に対応することができなかった。[3]</p>
+       		<p>　第3次AIブームは２０００年代にインターネットの普及により、コンピュータが大量のデータを利用することができるようになり、研究が進んでいる。大量のデータに加え、ディープラーニングによって第2次AIブームの問題点を解決することができた。[4]</p>
+       </div>
+       <div id="future-text" >
+       		<h2>AI技術とその未来</h2>
+       		　現在、AI技術の発展には限界があるといわれている。AIはゴールを数値で表せてデータがたくさんある領域が得意である。[5]しかし、AIは人の気持ちを読み取ったり、言語分野においては不得意である。将来AIに奪われない仕事は人の気持ちを読み取る必要がある仕事や、言語分野での仕事は無くならないであろう。しかしPISA調査（学習到達度調査）によると日本の読解力は低下しつつげている。[6]つまり、今後のAI技術を限界まで発展するには科学技術の進歩は必要だが、人の読解力向上も必要と考えられる。
+       </div>
+       <div id="summary-text" >
+       		<h2>まとめ</h2>
+       		　現在、AI技術の発展には限界があるといわれている。AI技術を限界まで発展するためには、私たちは科学技術の進歩と私たち自身の読解力を向上することが必要である。
+       </div>
+       <div class="reference" >
+       		<h3>　参考文献</h3>
+       		<p>[1] まだ”AIは存在しない。, https://note.com/natsumism530/n/n31760d47a9b0</p>
+       		
+       		<p>[2],[3],[4] 人工知能のAIブームの歴史, https://newtechnologylifestyle.net/人工知能aiブームの歴史
+       		</p>
+       		<p>[5] スン博士に訊く、「現在のAIが得意なこと、不得意なこと」, https://enterprisezine.jp/article/detail/12363</p>
+       		<p>[6] OECD生徒の学習到達度調査(PISA)：国立教育政策研究所, https://www.nier.go.jp/kokusai/pisa/</p>
+       </div>
+    </div>
 
+
+ 	
+ 
  </body>
 
 </html>
